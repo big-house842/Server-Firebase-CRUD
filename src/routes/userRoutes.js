@@ -1,6 +1,8 @@
+//1-Código
 const express = require('express');
 const router = express.Router();
 
+//Variáveis
 const {
   createUser,
   getUsers,
@@ -13,6 +15,7 @@ const {
 const validateUser = require('../middleware/validateUser');
 
 // ROTAS
+
 router.post('/register', createUser);
 router.get('/request', getUsers);
 router.get('/request/:id', getUserById);

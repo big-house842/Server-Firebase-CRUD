@@ -1,4 +1,3 @@
 firebase-credenciais.json
-*.json
 .env
 node_modules/
